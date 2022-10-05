@@ -1,0 +1,10 @@
+.counter {
+    text-align: center;
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonCount {
+    margin: 3px;
+}

@@ -1,0 +1,13 @@
+.textCard, .textCardPrecio, .titleCard {
+    text-align: center;
+}
+.textCardPrecio{
+    font-weight: 700;
+}
+.cardProducto{
+    text-align: center;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+
