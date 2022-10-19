@@ -11,7 +11,7 @@ import Checkout from './components/Checkout';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/tienda-geronimo'>
       <NavBar />
       <Routes>
         <Route path='/' element={<ItemListContainer greeting={'Bienvenidos a la tienda'} />} />
