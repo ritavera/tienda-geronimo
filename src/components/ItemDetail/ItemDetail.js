@@ -1,7 +1,10 @@
 //import { useState } from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { useState } from "react";
+import { Col, Container, NavLink, Row } from "react-bootstrap";
 import ItemCount from "../ItemCount/ItemCount";
 import Item from "../ItemListContainer/Item";
+import Button from 'react-bootstrap/Button';
+import { Link } from "react-router-dom";
 
 const ItemDetail = ({ product }) => {
 
@@ -11,9 +14,11 @@ const ItemDetail = ({ product }) => {
         setCount(value);
     }
  */
+    const [showItemCount, setShowItemCount] = useState(true);
 
     const onAdd = (cant) => {
         console.log(cant);
+        setShowItemCount(false);
     }
 
     return (
@@ -26,12 +31,21 @@ const ItemDetail = ({ product }) => {
             <h4>Cantidad {count}</h4>
             <button onClick={()=>handleClick(count+1)}>+</button> */}
                 <Col>
-                    <ItemCount initial={1} stock={product.stock} onAdd={onAdd} />
+                    {
+                        showItemCount && (
+                            <ItemCount initial={0} stock={product.stock} onAdd={onAdd} />
+                        )
+                    }
+                    {
+                        !showItemCount && (
+                            <Link to ='/cart'>
+                            <Button variant="success">Terminar Compra</Button>
+                            </Link>
+                        )
+                    }
                 </Col>
             </Row>
         </Container>
-
-
     );
 }
 export default ItemDetail;
