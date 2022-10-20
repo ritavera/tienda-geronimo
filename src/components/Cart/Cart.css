@@ -1,0 +1,14 @@
+svg{
+    cursor:pointer;
+    
+}
+th, .trash{
+    text-align: center;
+}
+.tdIzq{
+    text-align: right;
+}
+.total{
+    font-weight: bold;
+    text-align: center;
+}
