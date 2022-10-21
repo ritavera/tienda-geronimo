@@ -23,6 +23,23 @@ const ItemListContainer = ({ greeting }) => {
         }
     }, [categoryId])
 
+/*     useEffect(() => {
+        const database = getFirestore();
+        const collectionReference = collection(database, 'items');
+        getDocs(collectionReference)
+          .then((snapshot) => {
+            const list = snapshot
+              .docs
+              .map((doc) => ({
+                id: doc.id,
+                ...doc.data()
+              }))
+            console.log(list);
+          })
+          .catch(error => console.warn(error))
+      }, []) */
+    
+
     return (
         <Container>
             <h1>Productos</h1>
