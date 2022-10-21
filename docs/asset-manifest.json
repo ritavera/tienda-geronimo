@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/tienda-geronimo/static/css/main.78579f5b.css",
-    "main.js": "/tienda-geronimo/static/js/main.a7efc138.js",
+    "main.css": "/tienda-geronimo/static/css/main.ceda1ae6.css",
+    "main.js": "/tienda-geronimo/static/js/main.c63ca5d4.js",
     "static/js/787.f1e9c79c.chunk.js": "/tienda-geronimo/static/js/787.f1e9c79c.chunk.js",
     "index.html": "/tienda-geronimo/index.html",
-    "main.78579f5b.css.map": "/tienda-geronimo/static/css/main.78579f5b.css.map",
-    "main.a7efc138.js.map": "/tienda-geronimo/static/js/main.a7efc138.js.map",
+    "main.ceda1ae6.css.map": "/tienda-geronimo/static/css/main.ceda1ae6.css.map",
+    "main.c63ca5d4.js.map": "/tienda-geronimo/static/js/main.c63ca5d4.js.map",
     "787.f1e9c79c.chunk.js.map": "/tienda-geronimo/static/js/787.f1e9c79c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.78579f5b.css",
-    "static/js/main.a7efc138.js"
+    "static/css/main.ceda1ae6.css",
+    "static/js/main.c63ca5d4.js"
   ]
 }
